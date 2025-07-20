@@ -1,0 +1,31 @@
+OOP(Object Oriented Programming)
+
+C# nesne tabanlý bir programlama dilidir. OOP, programlamadan kullanýlan yapýlarý nesneler üzerinden düþünmeyi ve bu nesneler arasýndaki iliþkileri modellemeyi esas alýr.
+
+CLASS (sýnýf)		: Nesne oluþturmak için hazýrlanmýþ olan bir plan yani bir taslaktýr.
+
+OBJECT (nesne)	: Sýnýftan türetilmiþ olan ve kendine özgü özellik ve eylemleri olan yapýlardýr.
+
+NEDEN OOP: (Standart)
+1- Kodlarý tek sefer yazarak sürekli olarak kullanabilmemizi saðlar ve bu sayede kod maliyetini düþürür.
+2-Kod bloklarý ile ilgili hatalar aldýðýmýzda tek bir yerden güncelleme yapabilmemizi saðlar. 
+3-Bilgi gizliliði saðlanmasýna yardýmcý olur. 
+4-Belirli bir kodlama standardý getirmemizi saðlar. 
+
+Constructor: (Yapýcý Metod):
+Yapýcý metod sýnýftan bir nesne türetilirken çalýþýr. Bu durumda nesne türetilirken istenilen özellikler burada belirlenebilir. Sýnýf içerisinde sýnýfýn birebir adýyla oluþturulan bir metodtur. Birden fazla olabilir. 
+
+//Inheritance nedir?
+C# dilinde inheritance (kalýtým), bir sýnýfýn baþka bir sýnýfýn özelliklerini ve davranýþlarýný miras almasýný saðlar. Kalýtým, kodun yeniden kullanýlabilirliðini artýrýr ve nesne yönelimli programlamanýn temel özelliklerinden biridir.
+
+Polymorphism: (Çok Biçimlilik)
+Base classta bulunan bir metod child classlarda farklý amaç ile kullanýlmasýna denir. 
+Base classta bulunan metod virtual olarak isaretlenir.
+Child classda override edilerek içeriði deðiþtirilir.
+
+Interface Nedir?
+Interface, bir sýnýfýn uygulamasý gereken metotlarý ve özellikleri belirleyen bir yapýdýr. Interface’ler, bir sýnýfýn birden fazla interface’i implement etmesine olanak saðlar. Interface’ler, bir sýnýfýn hangi metotlarý ve özellikleri implement etmesi gerektiðini belirler.
+
+Özellikleri:
+-Interface içerisinde metod ve property tanýmlanabilir.
+-Interface içerisinde tanýmlanan metodlar ve propertylerin içeriði olmaz.

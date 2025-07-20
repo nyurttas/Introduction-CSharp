@@ -1,0 +1,23 @@
+ADO.NET (ActiveX Data Object)
+
+Microsoft'un .Net framework'ünde veri eriþimi ve yönetimi için geliþtirdiði bir veri eriþim teknolojisidir. Ado.Net iliþkisel veribatanlarý, xml dosyalarý veya veri kaynaklarý gibi farklý veri depolama türlerine eriþim saðlayarak uygulamalar geliþtirmeyi kolaylaþtýrýr.
+
+Ado.Net farklý dblere baðlanmak için çeþitli veri saðlayýcýlar (Provider) sunar.
+
+Bu providerlar arasýnda en yaygýn olarak kullanýlanlar þunlardýr:
+Sql Server:
+System.Data.SqlClient namespace'i altýnda bulunan SqlClient providerý
+
+OleDB:
+System.Data.OleDb namespace'i altýnda OleDb provider. (Microsoft Acccess, Oracle)
+
+Ado.Net birçok farklý veritabanýna baðlantý için kullanýlabilir. (MS Sql Server, Oracle, Mysql, Postgre Sql, Access ....)
+
+2 farklý bakýþ açýsý ile çalýþabilir:
+	1-Connected Mimari
+	2-Disconnected Mimari
+
+Yüklenmesi Gereken Paket:
+
+--Nuget Package Manager Console:
+install-package Microsoft.Data.SqlClient

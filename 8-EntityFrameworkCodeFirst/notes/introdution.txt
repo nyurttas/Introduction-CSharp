@@ -1,0 +1,43 @@
+EntityFramework Core (ORM)
+(Object Relational Mapping)
+
+ORM temel olarak db de yer alan tablo ve alanlarý nesne olarak kullanmamýza imkan veren bir yazýlým mimarisidir. 
+
+ORM iliskisel veritabaný ile nesneye yönelik programlama arasýnda bir köprü görevi görür. Bu köprü db bilgilerimizi yönetmek için nesne modellerimizi kullandýðýmýz bir yapýdýr. 
+
+EF ADO.NET alt yapýsýný kullanýr.
+
+EF 3 FARKLI YÖNTEM ÝLE KULLANILABÝLÝR:
+1-Code First
+2-Database First
+3-Model First
+
+1-CODE FIRST
+Bu yöntem classlarýmýzý VS tarafýnda oluþturmaya baþladýðýmýz yöntemdir. DB bu classlardan üretilecektir.
+
+2-DATABASE FIRST
+Bu yöntem önceden oluþturulmuþ bir db olan projelerde, db ye baðlanarak ilgili classlarýmýzý EF aracýlýðý ile uygulama tarafýnda oluþturmamýzý saðlar. 
+
+3-MODEL FIRST
+Bu yöntem VS üzerinde boþ bir model dosyasý (.edmx) eklenerek DB'i bu model üzerinde tasarlamamýza olamak saðlar.
+
+EF CORE Code First Uygulamak için Sýrasý ile:
+
+1-Entitiylerin Oluþturulmasý
+Category, Products
+
+2-Paketlerin Yüklenmesi
+Install-Package Microsoft.EntityFrameworkCore
+Install-Package Microsoft.EntityFrameworkCore.Tools
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package Microsoft.EntityFrameworkCore.Design
+
+3-Context Sýnýfýnýn Oluþturulmasý
+ApplicationDBContext:DBContext
+
+4-Package Manager Console üzerinden
+enable-migrations
+
+5-add-migration InitialCreate
+
+6-update-database
